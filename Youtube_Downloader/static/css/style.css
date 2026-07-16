@@ -1,0 +1,515 @@
+/* ========================= */
+/* RESET */
+/* ========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ========================= */
+/* BODY */
+/* ========================= */
+
+body{
+
+    background:#090909;
+
+    color:white;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    line-height:1.6;
+
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+
+header{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 80px;
+
+    border-bottom:1px solid #202020;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo i{
+
+    color:#ff0000;
+
+    font-size:28px;
+
+}
+
+.logo h2{
+
+    font-size:28px;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    color:#bdbdbd;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:white;
+
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
+
+.hero{
+
+    width:1100px;
+
+    margin:100px auto;
+
+}
+
+.subtitle{
+
+    color:#ff0000;
+
+    letter-spacing:5px;
+
+    font-size:13px;
+
+    margin-bottom:25px;
+
+}
+
+.hero h1{
+
+    font-size:92px;
+
+    line-height:95px;
+
+    font-weight:900;
+
+    margin-bottom:30px;
+
+}
+
+.hero span{
+
+    color:#ff0000;
+
+}
+
+.description{
+
+    width:550px;
+
+    color:#9b9b9b;
+
+    font-size:20px;
+
+}
+
+/* ========================= */
+/* DOWNLOAD */
+/* ========================= */
+
+.download{
+
+    width:1100px;
+
+    margin:auto;
+
+}
+
+.download label{
+
+    display:block;
+
+    margin-bottom:15px;
+
+    color:#777;
+
+    letter-spacing:4px;
+
+    font-size:13px;
+
+}
+
+.download-box{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.download-box input{
+
+    flex:1;
+
+    padding:20px;
+
+    background:#151515;
+
+    border:1px solid #303030;
+
+    color:white;
+
+    font-size:17px;
+
+    border-radius:8px;
+
+}
+
+.download-box input:focus{
+
+    outline:none;
+
+    border:1px solid #ff0000;
+
+}
+
+.download-box button{
+
+    width:180px;
+
+    border:none;
+
+    background:#ff0000;
+
+    color:white;
+
+    font-weight:bold;
+
+    font-size:16px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.download-box button:hover{
+
+    background:#cc0000;
+
+}
+
+/* ========================= */
+/* FEATURES */
+/* ========================= */
+
+.features{
+
+    width:1100px;
+
+    margin:120px auto;
+
+}
+
+.features h2{
+
+    margin-bottom:50px;
+
+    font-size:40px;
+
+}
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:#111111;
+
+    border:1px solid #222;
+
+    border-radius:12px;
+
+    padding:35px;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ff0000;
+
+}
+
+.card i{
+
+    color:#ff0000;
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#999;
+
+}
+
+/* ========================= */
+/* HOW IT WORKS */
+/* ========================= */
+
+.steps{
+
+    width:1100px;
+
+    margin:120px auto;
+
+}
+
+.steps h2{
+
+    margin-bottom:50px;
+
+    font-size:40px;
+
+}
+
+.steps-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.step{
+
+    background:#111;
+
+    padding:40px;
+
+    border-radius:12px;
+
+}
+
+.step span{
+
+    color:#ff0000;
+
+    font-size:60px;
+
+    font-weight:bold;
+
+}
+
+.step h3{
+
+    margin:20px 0;
+
+}
+
+.step p{
+
+    color:#999;
+
+}
+
+/* ========================= */
+/* FAQ */
+/* ========================= */
+
+.faq{
+
+    width:1100px;
+
+    margin:120px auto;
+
+}
+
+.faq h2{
+
+    margin-bottom:40px;
+
+}
+
+.question{
+
+    margin-bottom:30px;
+
+    padding-bottom:20px;
+
+    border-bottom:1px solid #222;
+
+}
+
+.question h3{
+
+    margin-bottom:10px;
+
+}
+
+.question p{
+
+    color:#999;
+
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+
+    text-align:center;
+
+    padding:60px;
+
+    border-top:1px solid #222;
+
+}
+
+footer h2{
+
+    color:#ff0000;
+
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    color:#999;
+
+    margin-top:8px;
+
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:1200px){
+
+.hero,
+.download,
+.features,
+.steps,
+.faq{
+
+    width:90%;
+
+}
+
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.steps-container{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+header{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+nav{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    line-height:65px;
+
+}
+
+.download-box{
+
+    flex-direction:column;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.description{
+
+    width:100%;
+
+}
+
+}
